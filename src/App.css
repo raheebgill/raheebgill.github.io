@@ -1,0 +1,71 @@
+/* src/App.css */
+.App {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.App-header {
+  background-color: #AA336A;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.lavender-flower {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.teddy-bear {
+  font-size: 5rem;
+  margin-bottom: 20px;
+  animation: float 3s ease-in-out infinite;
+  
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+.message {
+  max-width: 600px;
+  margin-right: 0;
+  padding: 20px;
+  background-color: #9873AC;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.message p {
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+
+.message h1 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.message h2 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.message signature {
+  font-style: italic;
+  font-size: 1rem;
+  color: #9873AC;
+}
+.image1 {
+  margin-left: 25%;
+}
