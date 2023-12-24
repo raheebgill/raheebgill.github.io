@@ -1,7 +1,7 @@
 // src/App.js
 import React from 'react';
 import './App.css';
-import image1 from './assets/image1.jpeg'
+import aimen from './assets/image1.jpeg'
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
           🧸
         </div>
         <div className="message">
-        <img src={image1} alt="Description of the image" className="image1" style={{ width: '50%', height: '50%' }} />
+        <img src={aimen} alt="Description" className="image1" style={{ width: '50%', height: '50%' }} />
 
 
           <h1>I Love You</h1>
